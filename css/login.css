@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+/* .zhucefangsi .zhucefangsi_1{ 
+    margin-left: 11px;
+} */
+
+.reg_view{
+    display: none;
+}
+.zhucefangsi .zhucefangsi_1 li{
+    float: left;
+    padding: 10px 8px;
+    margin: 0px 10px;
+    cursor:pointer;    
+    width: 90px;
+    text-align: center;
+}
+.zhucefangsi .zhucefangsi_1 li.active
+{
+    border-bottom: 2px solid #f66666;
+}
+
+.zhucefangsi .line_1 {
+    margin:0 auto;
+    width: 346px;
+    height: 1px;
+    background-color:#d2d2d2;
+    
+}
+.shoujizhuce ul{
+    padding-top: 30px;
+}
+.shoujizhuce ul .tname{
+    height: 34px;
+    color:#666;
+    font-size: 21px;
+    margin: 25px 0 0 15px;
+
+}
+
+.shoujizhuce ul .tname .txtcon{
+    font-size: 16px;
+    color:#666;
+    
+}
+.shoujizhuce ul .tname input{
+    width: 190px;
+    height: 34px;
+    margin-left: 10px;
+}
+.shoujizhuce ul .tname span{
+color:#f66666;
+}
+.shoujizhuce ul .tname p{
+    font-size: 14px ;
+    height: 20px;
+    width: 190px;
+    margin:1px  0 0 75px;
+    line-height: 20px;
+    padding-left: 20px;
+    color: red;
+    background: url(../img/unchecked.jpg)no-repeat left ;
+    border: 1px solid red;
+}
+
+.errortxt{
+    display: none;
+}
+
+.shoujizhuce button{
+    border: none;
+    background-color: #f66666;
+    padding: 9px 0;
+    border-bottom: 3px solid #e94b4b;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    height: 41px;
+    width: 268px;
+    line-height: 20px;
+    margin: 55px auto 15px;
+}
+.shoujizhuce button:hover{
+    background-color: #c90000;
+    border-bottom: 3px solid #c90000;
+}
+
+.tname .yzm a{
+    color:#1e69be;
+    font-size: 12px;
+    padding: 10px;
+}
+.tname2{
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding:40px 0 0 50px;
+}
+.tname2 a{
+    color:#1e69be;
+    padding-left: 80px;
+}
+
+.tname2 input{
+    width: 13px;
+    height: 13px;
+    
+}
+
+
+
+.shoujizhuce .xieyi{
+    padding:20px 0 0 150px;
+}
+
+
+.shoujizhuce .xieyi span{
+    font-size: 14px;
+    /* color: #333; */
+    /* margin-left: 1px; */
+}
+.shoujizhuce .xieyi span a{
+    color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+.weixinzhuce .weixincode img{
+    width: 123px;
+    height: 123px;
+
+}
+.weixinzhuce .weixincode {
+    position: relative;
+    padding:40px 0 0 60px;
+}
+.weixincode  .weixinpic{
+    position: absolute;
+}
+.weixincode  .weixinhelp{
+    position: absolute;
+    left: 190px;
+    z-index: 99;
+    display: none;
+}
+.weixincode .weixintxt{
+    position: absolute;
+    left: 190px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.weixinzhuce .weixinpic:hover + .weixinhelp {
+    display: block;
+}
+
+.appdownload{
+    width: 100%;
+    position: absolute;
+    top: 280px;
+    text-align: center;
+}
+.appdownload a{
+    font-size: 14px;
+    background: url(../img/login_app.jpg) 26px center no-repeat;
+    height: 30px;
+    padding: 3px;
+    line-height: 30px;
+    padding-left: 10px;
+    background-color: #ecebeb;
+    color: #555;
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    width: 100%
+}
+.appdownload a:hover{
+    color: #f60;
+}
+
+
+
+
+
+
+
+
+
+

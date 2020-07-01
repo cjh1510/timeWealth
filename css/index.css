@@ -1,0 +1,147 @@
+@charset "uft8";
+.float_l{
+    float: left;
+}
+.float_r{
+    float:right;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+/* 版心 */
+body,html{
+    width: 100%;
+    min-height:100%;
+}
+.header-con,.headertop-con,.mainnav{
+    width: 1200px;
+    height: 100%;
+    margin:  auto;
+}
+
+.headertop{
+    width: 100%;
+    height: 34px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.headertop-con p{
+    font-size: 12px;
+    height: 34px;
+    line-height: 34px;
+    color:#666;
+}
+.headertop-con p a{
+    color: #666;
+}
+.headertop-con p a:hover{
+    color: #ff0000;
+}
+
+.topnav li{
+    float: left;
+    padding:0 15px;
+    font-size: 12px;
+    height: 34px;
+    line-height: 34px;
+}
+.topnav li a{
+    color: #666;
+}
+.topnav li a:hover{
+    color: #ff0000;
+}
+.topnav li .status{
+    color: #ff0000;
+}
+
+
+
+.header-con{
+    height: 84px;
+
+}
+
+
+.logo{
+    width: 202px;
+    height: 84px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.tel{
+    width: 240px;
+    height: 73px;
+    padding: 18px 20px;
+    font-size: 14px;
+}
+
+.tel p:nth-child(1){
+    width: 150px;
+    height:17px;
+}
+.tel p:nth-child(2),p:nth-child(3){
+    padding-left: 5px;
+}
+
+
+.seachbtn{
+    width: 150px;
+    height: 45px;
+    background-color: #e0241b;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.or{
+    padding: 10px 10px;
+    
+}
+.seachbox{
+    width:494px;
+    height: 39px;
+    border: 3px solid #c90000;
+}
+
+.seachbox_l{
+    height: 33px;
+    width: 70px;
+    background: #FFFFFF url(../img/d_arrow_2.png) 61px center no-repeat;
+    font-size: 14px;
+    line-height: 33px;
+    padding-left: 10px;
+    color: #666666;
+    cursor: pointer;
+}
+
+.seachbox_c input{
+    height: 33px;
+    width: 324px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+    color: #000;
+}
+.seachbox_r{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 33px;
+    height: 33px;
+    font-weight: 400;
+    width: 83px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #E40606;
+}
+.sch{
+    margin-top:30px ;
+}

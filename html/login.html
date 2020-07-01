@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/md5.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <a href="#"><img src="../img/logo.png"></a>
+            </div>
+            <div class="lg_span"><span></span></div>
+            <div class="logo_title">用户注册</div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- 中间部分 -->
+    <div class="content">
+        <a href="#"><img src="../img/vk_11052417_1920_550.jpg"></a>
+        <div class="box_zhuce">
+            <div class="zhucefangsi">
+                <ul class="zhucefangsi_1">
+                    <li class="zcbtn zctab0 active">用户登录</li> 
+                    <li class="zcbtn zctab1">手机登录</li>
+                    <li class="zcbtn zctab1">微信登录</li>
+
+                </ul>
+                <div class="clear"></div>
+                <div class="line_1"></div>
+                <div>
+                    <div class="shoujizhuce zcfs ">
+                        <ul>
+                            <li class="tname">
+                                <label for="username">
+                                    <span>*&nbsp;</span>用户名
+                                </label>
+                                <input type="text" placeholder="请输入2~6位字母" id="username" name="user">
+                                <!-- 错误提示 -->
+                                <p class="errortxt"></p>
+                                <div class="clear"></div>
+                            </li>
+    
+                            
+                            
+                            <li class="tname">
+                                <label for="pwd">
+                                    <span>*&nbsp;</span>密&nbsp;&nbsp;&nbsp;码
+                                </label>
+                                <input type="password" placeholder="请输入3~6位大小写字母和数字" id="pwd" name="pwd">
+    
+                                <p class="errortxt "></p>
+    
+                                <div class="clear"></div>
+    
+                            </li>
+    
+                            <li class="tname2">
+                                <input type="checkbox" id="remember" class="hmiddle" value="1">
+                                <label for="remember" class="hmiddle">保持登录状态一个月</label>
+                                <a href="#"class="ml55">忘记密码</a>
+    
+                                    <div class="clear"></div>
+    
+                            </li>
+                            
+                        </ul>
+    
+                        <button id="loginBtn">登录</button>
+                        <div class="xieyi">
+                            
+                            <span style="padding-left:20px">还没有有账号？<a href="./reg.html" target="_blank"><span>注册</span></a></span>
+                        </div>
+                    </div>
+                    <div class="shoujizhuce zcfs reg_view">
+                        <ul>
+                            <li class="tname">
+                                <label for="phone">
+                                    <span>*&nbsp;</span>手机号
+                                </label>
+                                <input type="text" placeholder="请输入手机号" id="phone" name="user">
+                                <!-- 错误提示 -->
+                                <p class="errortxt"></p>
+                                <div class="clear"></div>
+                            </li>
+    
+                            
+                            
+                            <li class="tname">
+                                <label for="yzm">
+                                    <span>*&nbsp;</span>验证码
+                                </label>
+                                <input type="text" placeholder="请输入验证码" id="yzm" name="yzm"style="
+                                width: 100px;">
+                                <span class="yzm"><a href="#">获取验证码</a></span>
+    
+                                <p class="errortxt "></p>
+    
+                                <div class="clear"></div>
+    
+                            </li>
+    
+                            <li class="tname2">
+                                <input type="checkbox" id="remember" class="hmiddle" value="1">
+                                <label for="remember" class="hmiddle">保持登录状态一个月</label>
+                                <a href="#"class="ml55">忘记密码</a>
+    
+                                    <div class="clear"></div>
+    
+                            </li>
+                            
+                        </ul>
+    
+                        <button id="loginBtn1">登录</button>
+                        <div class="xieyi">
+                            
+                            <span style="padding-left:20px">还没有有账号？<a href="./reg.html" target="_blank"><span>注册</span></a></span>
+                        </div>
+                    </div>
+                    <div class="weixinzhuce zcfs reg_view">
+                        <div class="weixincode">
+                            <div class="weixinpic">
+                                <img src="../img/showqrcode.png" alt="">
+                            </div>
+                            <div class="weixinhelp">
+                                <img src="../img/login_weixin.png" alt="">
+                            </div>
+                            <div class="weixintxt">微信扫码注册，<br>安全快捷！<br><a href="#" class="weixinbtn">[刷新二维码]</a></div>
+                        </div>
+                        <div class="appdownload">
+                            <a href="#">下载手机时间财富APP，方便快捷</a>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="fot_nav">
+            <a href="#" target="_blank" title="关于时间财富网">关于我们</a>
+            <span>|</span>
+            <a href="#" target="_blank" title="联系方式">联系方式</a>
+            <span>|</span>
+            <a href="#" target="_blank">广告服务</a>
+            <span>|</span>
+            <a href="#" target="_blank">新闻中心</a>
+            <span>|</span>
+            <a href="#" target="_blank">发布悬赏须知</a>
+            <span>|</span>
+            <a href="#" target="_blank">参与项目须知</a>
+            <span>|</span>
+            <a href="#" target="_blank">加入我们</a>
+            <span>|</span>
+            <a href="#" target="_blank">付款方式</a>
+            <span>|</span>
+            <a href="#" target="_blank">时间财富APP</a>
+            <p>Copyright 2006-2019 680.com 版权所有 蜀ICP备10008552号-9 ICP证：川B2-20100121 </p>
+            <p>服务热线：400-630-6800 028-87858680 合作推广：market@vip.680.com</p>
+            </div>
+    </div>
+</body>
+</html>
