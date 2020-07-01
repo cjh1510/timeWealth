@@ -8,7 +8,7 @@
            this.timer = null;
            this.index = 0;
            this.len = this.data.length;
-           this.sliderBoxItemWidth = 700;
+           this.sliderBoxItemWidth = 1920;
        }
        init() {
            this.createUI(); //1、创建标签
@@ -90,15 +90,13 @@
                         <ul class='slider-box'>
                             ${sliderBoxItem}
                         </ul>
-                        <div class='slider-control'>
-                            <span class="prev">&lt;</span> <span class="next">&gt;</span>
-                        </div>
+                        
                         <ol class='slider-nav'>
                             ${sliderNavItem}
                         </ol>
                     </div>`);
 
-           $("body").append(this.slider);
+           $(".banner").append(this.slider);
            this.sliderControl = $(".slider-control", this.slider);
            this.sliderBox = $(".slider-box", this.slider);
            this.sliderNav = $(".slider-nav", this.slider);

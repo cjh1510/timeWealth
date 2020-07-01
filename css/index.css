@@ -15,7 +15,7 @@ body,html{
     width: 100%;
     min-height:100%;
 }
-.header-con,.headertop-con,.mainnav{
+.header-con,.headertop-con,.mainnav,.banner-con{
     width: 1200px;
     height: 100%;
     margin:  auto;
@@ -144,4 +144,72 @@ body,html{
 }
 .sch{
     margin-top:30px ;
+}
+
+
+.allnav{
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #bd1a21;
+}
+.allnav a{
+    color:#fff;
+}
+.mainnav{
+    height: 50px;
+}
+.navlit{
+    height: 50px;
+}
+.navlit ul{
+    height: 50px;
+    padding-left: 18px;
+}
+.navlit ul li{
+    float: left;
+    /* height: 22px; */
+    overflow: hidden;
+    padding: 14px 15px;
+}
+.navlit ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+}
+.navlit ul li a:hover{
+    color:#f14e47;
+}
+.banner{
+    position: relative;
+}
+.slider{
+    position: absolute;
+    top: -550px;left: 0;
+    z-index:-1;
+}
+.banner-con{
+    height: 500px;    
+    
+}
+
+
+.mainbav {
+    width: 240px;
+    z-index: 99;
+    background-color: #df231b;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+.bav_name {
+    color: #ffe69a;
+    height: 19px;
+    overflow: hidden;
+    padding-top: 6px;
+    background: url(../img/icon_06.jpg) repeat-x 0 17px;
+    margin: 0 auto;
 }

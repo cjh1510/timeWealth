@@ -14,8 +14,8 @@
  .slider {
      margin: 50px auto;
      /* border: 1px solid #000; */
-     width: 700px;
-     height: 350px;
+     width: 100%;
+     height: 500px;
      border-radius: 10px;
      overflow: hidden;
      position: relative;
@@ -31,8 +31,8 @@
  }
  
  .slider-box-item {
-     width: 700px;
-     height: 350px;
+     width: 1920px;
+     height: 500px;
      float: left;
      font-size: 40px;
      text-align: center;
@@ -40,13 +40,13 @@
  }
  
  .slider-box-item img {
-     width: 700px;
-     height: 350px;
+    width: 1920px;
+    height: 500px;
  }
  
  .slider-control {
      position: absolute;
-     width: 100%;
+     width: 1920px;
      height: 100px;
      line-height: 100px;
      top: 50%;
@@ -65,7 +65,7 @@
  
  .slider-nav {
      position: absolute;
-     right: 30px;
+     right: 50%;
      bottom: 10px;
      height: 30px;
  }

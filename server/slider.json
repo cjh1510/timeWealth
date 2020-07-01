@@ -1,38 +1,26 @@
 [
     {
-        "src": "https://wkp.680.com/2017-xbsy-vk/vk_2688979_1920_500.jpg"
-    },
-    {
-        "src": "https://wkp.680.com/2020hd-01mt-12mt/hd_507245_1920_5002.jpg"
-    },
-    {
-        "src": "https://wkp.680.com/2020hd-01mt-12mt/hd_507445_1920_500.jpg"
-    },
-    {
-        "src": "https://wkp.680.com/2020hd-01mt-12mt/hd_507461_1920_500.jpg"
-    },
-    {
-        "src": "https://wkp.680.com/2020hd-01mt-12mt/hd_506769_1920_500.jpg"
-    },
-    {
-        "src": "https://wkp.680.com/2017-xbsy-vk/vk_11052417_1920_500.jpg"
-    },
-    {
-        "src": "https://wkp.680.com/2017-xbsy-vk/vk_11043087_1920_500.jpg"
-    },
-    {
-        "src": "https://wkp.680.com/2017-xbsy-vk/vk_11010949_1920_500.jpg"
-    },
-    {
-        "src": "https://wkp.680.com/2017-xbsy-vk/vk_11012091_1920_500.jpg"
-    },
-    {
-        "src": "https://wkp.680.com/2017-xbsy-vk/vk_11033476_1920_500.jpg"
-    },
-    {
-        "src": "https://wkp.680.com/2017-xbsy-vk/vk_2688979_1920_500.jpg"
-    },
-    {
-        "src": "https://wkp.680.com/2020hd-01mt-12mt/hd_507245_1920_5002.jpg"
+        "src": "../img/slider/slider01.jpg"
+    },{
+        "src": "../img/slider/slider02.jpg"
+    },{
+        "src": "../img/slider/slider03.jpg"
+    },{
+        "src": "../img/slider/slider04.jpg"
+    },{
+        "src": "../img/slider/slider05.jpg"
+    },{
+        "src": "../img/slider/slider06.jpg"
+    },{
+        "src": "../img/slider/slider07.jpg"
+    },{
+        "src": "../img/slider/slider08.jpg"
+    },{
+        "src": "../img/slider/slider09.jpg"
+    },{
+        "src": "../img/slider/slider10.jpg"
+    },{
+        "src": "../img/slider/slider11.jpg"
     }
+    
 ]
