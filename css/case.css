@@ -1,0 +1,77 @@
+@charset "utf8";
+.case,.case-con{
+    height: 551px;;
+    margin-top: 50px;
+}
+
+.casetop{
+    height: 37px;
+    display: flex;
+    
+    justify-content: space-between;
+    border-bottom: 2px solid #666;
+}
+
+
+.casetop ul li{
+    float: left;
+    padding:0 20px
+}
+.casetop ul li a{
+    color: #000;
+}
+.casetop ul li a:hover{
+    color: #df231b;
+    
+}
+.goodcase{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.goodcase .casebox{
+    width: 282px;
+    height: 237px;
+    /* background-color: violet; */
+    /* border: 1px #000 solid; */
+    margin: 5px;
+    /* background-size:100% 100%;
+    background-size:100% 100%; */
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* background-size: cover; */
+}
+.goodcase .casetxt{
+    position: relative;
+    width: 282px;
+    height: 237px;
+    background-color: rgb(68, 68, 68);
+    opacity: 0.8;
+    display: none;
+}
+.goodcase .casetxt p{
+    position: absolute;
+    width: 282px;
+    height: 30px;
+    top:50px;
+    text-align: center;
+    color: #FFF;
+}
+.goodcase .casetxt p:nth-child(2){
+    top:100px;
+}
+.goodcase .casetxt div a{
+    position: absolute;
+    display:block;
+    width:97px;
+    height: 35px;
+    background-color: #df231b;
+    color: white;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    top:150px;left:95px;
+    
+}

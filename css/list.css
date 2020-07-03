@@ -1,0 +1,148 @@
+@charset "uft8";
+.float_l{
+    float: left;
+}
+.float_r{
+    float:right;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 版心 */
+.header-con,.headertop-con,.mainnav,.banner-con,.porjectbox-con,.case-con,.footer-con,.like-con{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+.headertop{
+    width: 100%;
+    height: 34px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.headertop-con p{
+    font-size: 12px;
+    height: 34px;
+    line-height: 34px;
+    color:#666;
+}
+.headertop-con p a{
+    color: #666;
+}
+.headertop-con p a:hover{
+    color: #ff0000;
+}
+a{
+    text-decoration: none;
+
+}
+.sort li {
+    float: left;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sort .cur {
+    color: red;
+    cursor: pointer;
+}
+
+#cart {
+    float: right;
+    cursor: pointer;
+}
+.box-list{
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 278px;
+    height: 420px;
+    padding: 27px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+}
+
+.item-img img{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    margin: 0 auto;
+}
+.vipcon{
+    width: 200px;
+    height: 46px;
+    padding: 8px 0 10px 0;
+}
+.vipcon img{
+    width: 100%;
+    height: 100%;
+}
+/* .vipcon img:nth-child(2){
+    width: 82px;
+    height: 22px;
+} */
+.vipcon a{
+    display: block;
+    float: left;
+    color: #1f6fb0;
+}
+.vipcon a:nth-child(1){
+    width: 34px;
+    height: 21px;
+}
+.vipcon a:nth-child(2){
+    width: 82px;
+    height: 22px;
+}
+.vipcon a:hover{
+    color: #ff6600;
+}
+.item-box .price{
+    font-size: 20px;
+    /* text-align: center; */
+    color: #fd3b3f;
+}
+.item-box .title a{
+    font-size: 16px;
+    /* text-align: center; */
+    color: #1f6fb0;
+}
+.item-box .title a:hover{
+
+    color: #ff6600;
+}
+.author a{
+    font-size: 14px;
+    color:#717070;
+}
+.author a:hover{
+    color: #ff6600;
+}
+.place {
+    font-size: 14px;
+    color:#909090;
+}
+.buy{
+    cursor: pointer;
+    width: 62px;
+    height:24px;
+    border: #909090 1px dashed;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.buy:hover{
+    border: #ff6600 1px dashed;
+    color: #ff6600;
+}

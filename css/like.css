@@ -1,0 +1,79 @@
+@charset "utf8";
+
+.liketop{
+    background: url(https://www.680.com/images/2017/logo_bg.jpg) repeat-x 0 34px;
+    width: 1200px;
+    padding: 20px 0;
+    text-align: center;
+}
+.like-con h4{ 
+    background-color: #FFFFFF;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.likeitem{
+    background-color: #f6f6f6;
+    width: 190px;
+    height: 248px;
+    /* margin-left: 12px; */
+    margin-bottom: 12px
+    
+}
+.likeimg{
+    height: 190px;
+    width: 190px;
+    overflow: hidden;
+}
+.liketit{
+    background-color: #f6f6f6;
+    width: 180px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.liketit a{
+    color: #333333;
+}
+.liketit a:hover{
+    color: #ff3300;
+}
+.likeprice{
+    font-weight: bold;
+    font-size: 14px;
+    color: #ec0f0f;
+}
+.likeplace{
+    line-height: 26px;
+    height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.likebox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.likebtn{
+    width: 1200px;
+    text-align: center;
+    padding-top: 10px;
+}
+.likebtn a{
+    display: block;
+    text-align: center;
+    display: inline-block;
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #000;
+    background-color: #e4e4e4;
+    border: 1px solid #d8d8d8;
+}
+.likebtn a:hover{
+    color:#ff3300;
+}

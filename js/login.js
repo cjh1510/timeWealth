@@ -29,21 +29,7 @@ $(()=>{
         // console.log(password)
 
 
-        // $.ajax({
-        //     type:"post",
-        //     url:"../server/login.php",
-        //     data:{username,password},
-        //     dataType:"json",
-        // }).done(data=>{
-        //     console.log(data);
-        //     if(data.status=="success"){
-        //         alert("登录成功");
-        //         location.href="./reg.html";
-        //     }else{
-        //         alert(data.data.msg)
-        //     }
-            
-        // })
+     
 
         $.ajax({
             type: "post",
@@ -54,11 +40,18 @@ $(()=>{
             // alert(data.msg);
             /* 如果 */
             if (data.status == "success") {
+                localStorage.setItem("user_id", data.data.userId);
+                localStorage.setItem("user_name", data.data.username);
+                if(isCheck){
+                    Cookie.setItem("user_id", data.data.userId,30);
+                    Cookie.setItem("user_name", data.data.username,30);
+                }
                 alert(data.data.msg);
                 /* 跳转 */
+                location.href="./_index.html"    
             } else {
                 alert(data.data.msg);
-                console.log(md5(password))
+                // console.log(md5(password))
             }
         })    
 

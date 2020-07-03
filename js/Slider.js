@@ -96,7 +96,7 @@
                         </ol>
                     </div>`);
 
-           $(".banner").append(this.slider);
+           $("#banner").append(this.slider);
            this.sliderControl = $(".slider-control", this.slider);
            this.sliderBox = $(".slider-box", this.slider);
            this.sliderNav = $(".slider-nav", this.slider);

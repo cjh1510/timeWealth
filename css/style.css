@@ -1,87 +1,134 @@
- * {
-     list-style: none;
-     margin: 0;
-     padding-bottom: 0;
- }
- 
- body {
-     -webkit-user-select: none;
-     -moz-user-select: none;
-     -ms-user-select: none;
-     user-select: none;
- }
- 
- .slider {
-     margin: 50px auto;
-     /* border: 1px solid #000; */
-     width: 100%;
-     height: 500px;
-     border-radius: 10px;
-     overflow: hidden;
-     position: relative;
- }
- 
- .slider-box {
-     background: #dddddd;
-     width: 10000px;
-     height: 350px;
-     padding: 0;
-     margin: 0;
-     position: absolute;
- }
- 
- .slider-box-item {
-     width: 1920px;
-     height: 500px;
-     float: left;
-     font-size: 40px;
-     text-align: center;
-     line-height: 350px;
- }
- 
- .slider-box-item img {
-    width: 1920px;
-    height: 500px;
- }
- 
- .slider-control {
-     position: absolute;
-     width: 1920px;
-     height: 100px;
-     line-height: 100px;
-     top: 50%;
-     margin-top: -50px;
-     font-size: 60px;
- }
- 
- .prev {
-     margin-left: 20px;
- }
- 
- .next {
-     float: right;
-     margin-right: 20px;
- }
- 
- .slider-nav {
-     position: absolute;
-     right: 50%;
-     bottom: 10px;
-     height: 30px;
- }
- 
- .slider-nav-item {
-     background: rgba(0, 0, 0, 0.6);
-     color: #fff;
-     float: left;
-     border-radius: 15px;
-     margin: 0 5px;
-     text-align: center;
-     width: 30px;
-     height: 30px;
-     line-height: 30px;
- }
- 
- .active {
-     background: red;
- }
+
+
+.Box {
+    background: #f5f5f5;
+    width: 1226px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.Box-header {
+    width: 100%;
+    height: 58px;
+    position: relative
+    /* border: 1px solid #000; */
+}
+
+.Box-header .title {
+    font-size: 30px;
+    font-weight: bold;
+    height: 58px;
+    line-height: 58px;
+    width: 200px;
+    padding-left: 30px;
+}
+
+.Box-header-list {
+    position: absolute;
+    float: left;
+    top: 0px;
+    right: 0px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.Box-header-list li {
+    width: 70px;
+    float: left;
+    text-align: center;
+    
+}
+
+.Box-content {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid #000; */
+    position: relative
+}
+
+.Bleft {
+    width: 245px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.Bleft li,
+.Bleft li img {
+    width: 245px;
+    height: 171px;
+    /* margin: 0px 0px 15px 0px; */
+}
+
+.Bright {
+    width: 978px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    /* padding-left: 10px; */
+}
+
+.Blist {
+    width: 100%;
+    height: 100%;
+    display: none
+}
+
+.Bcurrent {
+    display: block
+}
+
+.Blist-item {
+    width: 243px;
+    /* margin: 5px; */
+    height: 260px;
+    float: left;
+    text-align: center;
+    background: #fff;
+    padding: 0px 0px;
+}
+
+.Blist-item img {
+    width: 100%;
+    height: 170px;
+}
+
+.Btitle {
+    margin: 20px 20px 3px;
+    font-size: 18px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    color: #212121;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Bdesc {
+    height: 20px;
+    margin: 10px 20px 12px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    color: #b0b0b0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Bprice {
+    margin: 20px 0;
+    color: #ff6709;
+    font-size: 14px;
+}
+
+.Bprice del {
+    color: #b0b0b0;
+}
+.Bprice span{
+    padding: 15px 0;
+}
+
+.active1 {
+    color: #ff6709;
+    background-color: white
+}

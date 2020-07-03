@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>首页</title>
-    <script src="../js/jquery-3.4.1.js"></script>
-    <script src="../js/Slider.js"></script>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style1.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pjlist.css">
+    <link rel="stylesheet" href="../css/case.css">
+    <link rel="stylesheet" href="../css/like.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/loginstatus.js"></script>
+    <script src="../js/Slider.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/pjitem.js"></script>
+    <script src="../js/case.js"></script>
+    <script src="../js/like.js"></script>
+    
 </head>
 <body>
     <!-- 共用的头部 -->
@@ -18,11 +28,11 @@
             <p class="float_l">您好，欢迎来到一站式众包服务平台-<a href="_index.html">时间财富网！</a></p>
             <ul class="topnav float_r">
                 <li>
-                    <a href="#" class="userInfo">登录/</a>
+                    <a href="./login.html" class="userInfo">登录/</a>
                     <a href="#" class="status" >免费注册</a>
                 </li>
                 <li>
-                    <a href="#">帮助中心</a>
+                    <a href="./cart.html">购物车</a>
                 </li>
                 <li>
                     <a href="#">App下载</a>
@@ -80,7 +90,7 @@
         </div>
         <a href="#" class="float_r"style="display: block;float: right;margin-top: 19px;color: #5f646f;font-size:12px">所有分类</a>
     </div>
-    <div class="banner">
+    <div class="banner" id="banner">
         <div class="banner-con">
             
             <div class="mainbav float_l">
@@ -88,115 +98,1189 @@
                     <div class="bav_name">
                         <span>企业服务</span>
                     </div>
-                    <div class="box1">
-                        <a href="#">商标注册</a>
-                        <a href="#">版权登记</a>
+                    <div class="box">
+                        <div class="box1">
+                            <a href="#">商标注册</a>
+                            <a href="#">版权登记</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">运营导航</a>
+                            <a href="#">企业文案</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">品牌建设</a>
+                            <a href="#">财税服务</a>
+                        </div>
+                    <div class="box2">
+                        <div class="box2_1">
+                            <div class="box2_l float_l">
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box2_r float_r">
+                                <div>
+                                    <a href="#"><img src="../img/vk_10900950_220_165.jpg" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="../img/vk_10981809_220_165.jpg" alt=""></a>
+                                </div>
+                                <div class="border_none">
+                                    <a href="#"><img src="../img/vk_10411039_220_165.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="box1">
-                        <a href="#">运营导航</a>
-                        <a href="#">企业文案</a>
-                    </div>
-                    <div class="box1">
-                        <a href="#">品牌建设</a>
-                        <a href="#">财税服务</a>
                     </div>
                 </div>
-                <div class="bav2">
+                <div class="clear"></div><div class="bav1">
                     <div class="bav_name">
                         <span>企业服务</span>
                     </div>
-                    <div class="box1">
-                        <a href="#">商标注册</a>
-                        <a href="#">版权登记</a>
+                    <div class="box">
+                        <div class="box1">
+                            <a href="#">商标注册</a>
+                            <a href="#">版权登记</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">运营导航</a>
+                            <a href="#">企业文案</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">品牌建设</a>
+                            <a href="#">财税服务</a>
+                        </div>
+                    <div class="box2">
+                        <div class="box2_1">
+                            <div class="box2_l float_l">
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box2_r float_r">
+                                <div>
+                                    <a href="#"><img src="../img/vk_10900950_220_165.jpg" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="../img/vk_10981809_220_165.jpg" alt=""></a>
+                                </div>
+                                <div class="border_none">
+                                    <a href="#"><img src="../img/vk_10411039_220_165.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="box1">
-                        <a href="#">运营导航</a>
-                        <a href="#">企业文案</a>
-                    </div>
-                    <div class="box1">
-                        <a href="#">品牌建设</a>
-                        <a href="#">财税服务</a>
                     </div>
                 </div>
-                <div class="bav3">
+                <div class="clear"></div><div class="bav1">
                     <div class="bav_name">
                         <span>企业服务</span>
                     </div>
-                    <div class="box1">
-                        <a href="#">商标注册</a>
-                        <a href="#">版权登记</a>
+                    <div class="box">
+                        <div class="box1">
+                            <a href="#">商标注册</a>
+                            <a href="#">版权登记</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">运营导航</a>
+                            <a href="#">企业文案</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">品牌建设</a>
+                            <a href="#">财税服务</a>
+                        </div>
+                    <div class="box2">
+                        <div class="box2_1">
+                            <div class="box2_l float_l">
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box2_r float_r">
+                                <div>
+                                    <a href="#"><img src="../img/vk_10900950_220_165.jpg" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="../img/vk_10981809_220_165.jpg" alt=""></a>
+                                </div>
+                                <div class="border_none">
+                                    <a href="#"><img src="../img/vk_10411039_220_165.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="box1">
-                        <a href="#">运营导航</a>
-                        <a href="#">企业文案</a>
-                    </div>
-                    <div class="box1">
-                        <a href="#">品牌建设</a>
-                        <a href="#">财税服务</a>
                     </div>
                 </div>
-                <div class="bav4">
+                <div class="clear"></div><div class="bav1">
                     <div class="bav_name">
                         <span>企业服务</span>
                     </div>
-                    <div class="box1">
-                        <a href="#">商标注册</a>
-                        <a href="#">版权登记</a>
+                    <div class="box">
+                        <div class="box1">
+                            <a href="#">商标注册</a>
+                            <a href="#">版权登记</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">运营导航</a>
+                            <a href="#">企业文案</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">品牌建设</a>
+                            <a href="#">财税服务</a>
+                        </div>
+                    <div class="box2">
+                        <div class="box2_1">
+                            <div class="box2_l float_l">
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box2_r float_r">
+                                <div>
+                                    <a href="#"><img src="../img/vk_10900950_220_165.jpg" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="../img/vk_10981809_220_165.jpg" alt=""></a>
+                                </div>
+                                <div class="border_none">
+                                    <a href="#"><img src="../img/vk_10411039_220_165.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="box1">
-                        <a href="#">运营导航</a>
-                        <a href="#">企业文案</a>
-                    </div>
-                    <div class="box1">
-                        <a href="#">品牌建设</a>
-                        <a href="#">财税服务</a>
                     </div>
                 </div>
-                <div class="bav5">
+                <div class="clear"></div>
+                <div class="bav1">
                     <div class="bav_name">
                         <span>企业服务</span>
                     </div>
-                    <div class="box1">
-                        <a href="#">商标注册</a>
-                        <a href="#">版权登记</a>
+                    <div class="box">
+                        <div class="box1">
+                            <a href="#">商标注册</a>
+                            <a href="#">版权登记</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">运营导航</a>
+                            <a href="#">企业文案</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">品牌建设</a>
+                            <a href="#">财税服务</a>
+                        </div>
+                    <div class="box2">
+                        <div class="box2_1">
+                            <div class="box2_l float_l">
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box2_r float_r">
+                                <div>
+                                    <a href="#"><img src="../img/vk_10900950_220_165.jpg" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="../img/vk_10981809_220_165.jpg" alt=""></a>
+                                </div>
+                                <div class="border_none">
+                                    <a href="#"><img src="../img/vk_10411039_220_165.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="box1">
-                        <a href="#">运营导航</a>
-                        <a href="#">企业文案</a>
-                    </div>
-                    <div class="box1">
-                        <a href="#">品牌建设</a>
-                        <a href="#">财税服务</a>
                     </div>
                 </div>
-                <div class="bav6">
+                <div class="clear"></div>
+                <div class="bav1">
                     <div class="bav_name">
                         <span>企业服务</span>
                     </div>
-                    <div class="box1">
-                        <a href="#">商标注册</a>
-                        <a href="#">版权登记</a>
+                    <div class="box">
+                        <div class="box1">
+                            <a href="#">商标注册</a>
+                            <a href="#">版权登记</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">运营导航</a>
+                            <a href="#">企业文案</a>
+                        </div>
+                        <div class="box1">
+                            <a href="#">品牌建设</a>
+                            <a href="#">财税服务</a>
+                        </div>
+                    <div class="box2">
+                        <div class="box2_1">
+                            <div class="box2_l float_l">
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="boxlis float_l">
+                                    <p>商标注册</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">品牌建设</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">财税服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">运营导航</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">企业文案</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">版权登记</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">商标注册</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box2_r float_r">
+                                <div>
+                                    <a href="#"><img src="../img/vk_10900950_220_165.jpg" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="../img/vk_10981809_220_165.jpg" alt=""></a>
+                                </div>
+                                <div class="border_none">
+                                    <a href="#"><img src="../img/vk_10411039_220_165.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="box1">
-                        <a href="#">运营导航</a>
-                        <a href="#">企业文案</a>
-                    </div>
-                    <div class="box1">
-                        <a href="#">品牌建设</a>
-                        <a href="#">财税服务</a>
                     </div>
                 </div>
-            </div>
+                <div class="clear"></div>
         </div>
         <!-- 轮播图 -->
         <!-- <div class="slider"></div> -->
+        </div>
     </div>
-    <div class="hotwrap"></div>
-
+    <div class="hotwrap">
+        <div>
+            <img src="../img/hot1.jpg" alt="">
+        </div>
+        <div>
+            <a href="#">
+                <img src="../img/hot2.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="../img/hot3.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="../img/hot4.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="../img/hot5.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="clear"></div>
     <!-- 插入数据 -->
-    
+    <div class="porjectbox">
+        <div class="porjectbox-con">
+            
+        </div>
+    </div>
+    <div class="servicelist">
+
+    </div> 
+    <div class="case">
+        <div class="case-con">
+            <div class="casetop">
+                <p>我们有实力足够让您相信</p>
+                <ul>
+                    <li><a href="#">标志设计</a></li>
+                    <li><a href="#">包装设计</a></li>
+                    <li><a href="#">VI设计</a></li>
+                    <li><a href="#">卡通设计</a></li>
+                    <li><a href="#">装修设计</a></li>
+                    <li><a href="#">建筑设计</a></li>
+                    <li><a href="#">工业设计</a></li>
+                    <li><a href="#">网站建设</a></li>
+                </ul>
+            </div>
+            <div class="goodcase">
+              
+            </div>
+        </div>
+    </div>
+    <div class="like">
+        <div class="like-con">
+            <div class="liketop"><h4>猜你喜欢</h4></div>
+            <div class="likebox">
+                
+            </div>
+            <div class="likebtn"><a href="./list.html">查看更多>></a></div>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="footer-con footerbox1">
+            <div>
+                <ul>
+                    <li>关于我们</li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">联系方式</a></li>
+                    <li><a href="#">支付方式</a></li>
+                    <li><a href="#">客服中心</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>关于我们</li>
+                    <li><a href="#">App下载</a></li>
+                    <li><a href="#">威客经纪人</a></li>
+                    <li><a href="#">威客网盘</a></li>
+                    <li><a href="#">威客问答</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>网站规则</li>
+                    <li><a href="#">网站服务协议</a></li>
+                    <li><a href="#">发布项目规则</a></li>
+                    <li><a href="#">威客投标规则</a></li>
+                    <li><a href="#">项目评标规则</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>新手入门</li>
+                    <li><a href="#">什么是威客</a></li>
+                    <li><a href="#">免费注册会员</a></li>
+                    <li><a href="#">时间财富定位</a></li>
+                    <li><a href="#">会员帮助中心</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>快捷导航</li>  
+                    <li><a href="#">闹钟导航站</a></li>
+                    <li><a href="#">找服务商</a></li>
+                    <li><a href="#">悬赏大厅</a></li>
+                    <li><a href="#">成功案例</a></li>
+                    
+                </ul>
+            </div>
+            <div>
+                <h3>手机版</h3>
+                <div class="imgpic">
+                    <img src="../img/showqrcode.png" alt="">  
+                </div>
+            </div>
+        </div>
+        <div class="footer_line"></div>
+        <div class="footer-con footerbox2">
+            <p>服务热线：400-630-6800  028-87858680  合作推广：market@vip.680.com  投诉举报</p>
+            <p>Copyright 2006-2019 680.com 版权所有  成都时间财富网络有限公司  蜀ICP备15035644号  ICP证：川B2-20160320</p>
+        </div>
+        <div class="footer_line"></div>
+        <div class="footer-con footerbox3"></div>
+    </div>
 </body>
     <script>
+        
         ( new Slider(["../img/slider/slider01.jpg","../img/slider/slider02.jpg","../img/slider/slider03.jpg","../img/slider/slider04.jpg"]).init());
+        
+        $.getJSON("../server/servicelist.json", (data) => (new Serlist(data)).init());
+        $.getJSON("../server/hotneed.json", (data) => (new Pjitem(data)).init());
+        $.getJSON("../server/case.json", (data) => (new Case(data)).init());
+        $.getJSON("../server/like.json", (data) => (new Like(data)).init());
     </script>
 </html>
