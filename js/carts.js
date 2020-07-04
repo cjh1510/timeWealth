@@ -26,6 +26,7 @@ $(() => {
     
 
     /* 发请求获取购物车的商品信息 */
+    // console.log('id:'+user_id);
     $.ajax({
         url: "../server/getCart.php",
         data: { user_id },

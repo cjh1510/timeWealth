@@ -7,6 +7,9 @@
 .reg_view{
     display: none;
 }
+/* .zhucefangsi{
+
+} */
 .zhucefangsi .zhucefangsi_1 li{
     float: left;
     padding: 17px 8px;
@@ -106,12 +109,21 @@ color:#f66666;
     color: #333;
     margin-right: 1px;
 }
+.image-code{
+    position: relative;
+}
 
 
 
-
-
-
+.image-code-box{
+    position: absolute;
+    width: 160PX;
+    height: 35PX;
+    top:0px;left:152px
+}
+ #imageCode{
+    width: 70px;
+}
 
 
 

@@ -10,6 +10,7 @@
     <script src="../js/jquery-3.4.1.js"></script>
     <script src="../js/md5.js"></script>
     <script src="../js/reg.js"></script>
+    <script src="../js/captcha.js"></script>
 </head>
 <body>
     <!-- 顶部 -->
@@ -69,6 +70,22 @@
     
                                 <div class="clear"></div>
     
+                            </li>
+
+                            <li class="form-item tname image-code">
+                                <label for="imageCode">
+                                    <span class="label">*&nbsp;</span>验证码
+                                </label>
+                                
+                                <input type="text" maxlength="6" placeholder="验证码" id="imageCode">
+                                <p class="errortxt "></p>
+<!--     
+                                <div class="clear"></div> -->
+                                <div class="image-code-box">
+                                    <canvas width="125" height="34" id="captcha"></canvas>
+                                        <!-- <div class="form-group__message">请输入图形验证码</div> -->
+                                </div>
+                                
                             </li>
     
                             <li class="tname1">

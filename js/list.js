@@ -63,7 +63,7 @@ $(() => {
                 <li class="item" data-id=${item.good_id}>
                     <div class="item-box">
                         <div class="item-img">
-                            <a href="./xq.html">
+                            <a href="./xq.html?newsid=${item.good_id}">
                                 <img src="${item.src1}" alt="">
                             </a>
                         </div>
@@ -95,7 +95,7 @@ $(() => {
     /* 2、加入购物车的点击事件 */
     $(".box-list").on("click", ".addCart", function() {
         console.log("++")
-        console.log(this)
+        // console.log(this)
             /* user_id user_name */
         let user_id = localStorage.getItem("user_id") || "";
         let user_name = localStorage.getItem("user_name") || "";
@@ -114,9 +114,36 @@ $(() => {
 
         } else {
             /* 跳转去登录 */
-            location.href = "./login.html"
+            // location.href = "./login.html"
         }
     })
+
+
+    // // 点击跳转详情页
+    // $(".box-list").on("click", ".item-box", function() {
+    //     console.log("++")
+    //     // console.log(this)
+    //         /* user_id user_name */
+    //     // let user_id = localStorage.getItem("user_id") || "";
+    //     // let user_name = localStorage.getItem("user_name") || "";
+    //     let good_id = $(this).parent().attr("data-id");
+
+    //     // console.log(user_id, user_name);
+    //     console.log(good_id)
+    //     // if (user_id && user_name) {
+    //         /* 发请求，执行添加到购物车 */
+    //         $.ajax({
+    //             url: "../server/xq.php",
+    //             data: { good_id }
+    //         }).done(data => {
+    //             console.log("返回值:", data);
+    //         })
+
+    //     // } else {
+    //     //     /* 跳转去登录 */
+    //     //     location.href = "./login.html"
+    //     // }
+    // })
 
     /* 3、点击按钮的时候加入购物车 */
     $("#cart").click(function() {

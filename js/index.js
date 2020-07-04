@@ -26,7 +26,7 @@ class Serlist{
 
             }).join("");
 
-            ulHtml += `<ul class="Blist Bcurrent ${index==0?"current":""}">${liHtml}</ul>`;
+            ulHtml += `<ul class="Blist ${index==0?"current":""}">${liHtml}</ul>`;
         });
                 let html = `<div class="Box">
                     <div class="Box-header">
