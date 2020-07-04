@@ -1,0 +1,96 @@
+@charset "utf8";
+.bg-main {
+    width: 1100px;
+    margin: auto;
+    background: #fff;
+    border: solid 1px #e5e5e5;
+    padding-top: 32px;
+    height: 580px;
+}
+.main-a{
+    width: 600px;
+    height: 590px;
+
+}
+.bigimg{
+    width: 663px;
+    height: 400px;
+}
+
+.bigimg img{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    margin: auto;
+}
+.smallimg img{
+    width: 101px;
+    height: 66px;
+    background-color: blueviolet;
+}
+
+.main-b h3{
+    font-size: 20px;
+    width: 370px;
+    padding-bottom: 30px;
+}
+.price{
+    width: 370px;
+    height: 100px;
+    font-size: 30px;
+    line-height: 100px;
+    color: #ff6600;
+    border-bottom: 1px dashed #666;
+    background-color: gainsboro;
+    margin-bottom: 2px;
+    background: url(../img/value.png) center center no-repeat;
+    
+
+}
+.star{
+    width: 370px;
+    height: 103px;
+    border-bottom: 1px dashed #666;
+}
+.star .pf1{
+    font-size: 20px;
+    padding: 40px;
+}
+.star .pf2{
+    background: url(../img/pingfen2.png) no-repeat;
+    background-position: 0 0px;
+    width: 60px;
+    height: 12px;
+    height: 12px;
+    display: block;
+    margin-top: 46px;
+}
+.buybtn{
+    width: 370px;
+    height: 126px;
+    padding: 40px;
+    border-bottom: 1px dashed #666;
+}
+.buybtn a{
+    display: block;
+    width: 200px;
+    height: 45px;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    background-color: #ff6600;
+    margin: auto;
+    
+}
+.border-btom{
+    color: #999999;
+    border-top: 1px dashed #dadada;
+    height: 30px;
+    width: 400px;
+    padding-top: 12px;
+    border-bottom: none;
+}
+.yc_bg{
+    background: url(../img/yc.png) left 10px no-repeat;
+    height: 70px;
+}

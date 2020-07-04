@@ -1,26 +1,35 @@
 [
     {
         "src": "../img/slider/slider01.jpg"
-    },{
+    },
+    {
         "src": "../img/slider/slider02.jpg"
-    },{
+    },
+    {
         "src": "../img/slider/slider03.jpg"
-    },{
+    },
+    {
         "src": "../img/slider/slider04.jpg"
-    },{
+    },
+    {
         "src": "../img/slider/slider05.jpg"
-    },{
+    },
+    {
         "src": "../img/slider/slider06.jpg"
-    },{
+    },
+    {
         "src": "../img/slider/slider07.jpg"
-    },{
+    },
+    {
         "src": "../img/slider/slider08.jpg"
-    },{
+    },
+    {
         "src": "../img/slider/slider09.jpg"
-    },{
+    },
+    {
         "src": "../img/slider/slider10.jpg"
-    },{
+    },
+    {
         "src": "../img/slider/slider11.jpg"
     }
-    
 ]

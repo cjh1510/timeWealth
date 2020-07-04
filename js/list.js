@@ -63,7 +63,7 @@ $(() => {
                 <li class="item" data-id=${item.good_id}>
                     <div class="item-box">
                         <div class="item-img">
-                            <a href="#">
+                            <a href="./xq.html">
                                 <img src="${item.src1}" alt="">
                             </a>
                         </div>
